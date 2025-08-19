@@ -4,8 +4,11 @@ Code and Datasets for "PBIP: A Deep Learning Framework for Predicting Phage–Ba
 
 ### Datasets
 
-The phenotypic file and UniRep features for the strain-level dataset (PBIP) are available in the data folder, while the raw protein and nucleotide sequences are hosted at [https://drive.google.com/drive/folders/1c1JNePxM5IFlTqt6CglUHWi-J-Z_1uoo?usp=drive_link] due to GitHub file size limitations. The UniRep features for the species-level dataset (PredPHI) are also provided in the data folder.
+Due to GitHub file size limitations, the phenotype file, raw protein and nucleotide sequences, and UniRep features of the strain-level dataset (PBIP), along with the UniRep features of the species-level dataset (PredPHI), are hosted on Google Drive at [https://drive.google.com/drive/folders/1c1JNePxM5IFlTqt6CglUHWi-J-Z_1uoo]. Users need to download the data folder from the Google Drive and place it within the PBIP directory to run the code properly.
 
+### Models
+
+Due to GitHub file size limitations, the trained models for the strain-level dataset (PBIP) and the species-level dataset (PredPHI) are hosted in the model folder on Google Drive, available at: [https://drive.google.com/drive/folders/1c1JNePxM5IFlTqt6CglUHWi-J-Z_1uoo].
 
 ### Environment Requirement
 
@@ -34,4 +37,5 @@ python PBIP_dataset_PBIP.py
 ```
 python PBIP_dataset_PredPHI.py
 ```
+
 
